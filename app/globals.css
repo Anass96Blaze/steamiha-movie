@@ -1989,6 +1989,22 @@ td:hover .rank {
     width: calc((90vw - 56px) / 10.4);
     min-width: calc((90vw - 56px) / 10.4);
   }
+
+  .top10-rank {
+    font-size: 160px;
+    bottom: -14px;
+    left: -10px;
+  }
+
+  .top10-card {
+    width: min(38vw, 240px);
+    padding-left: 54px;
+  }
+
+  .top10-cta {
+    width: min(35vw, 220px);
+    min-height: 280px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -2113,5 +2129,34 @@ td:hover .rank {
   .site-footer-credit {
     width: 100%;
     text-align: right;
+  }
+
+  .top10-rank {
+    font-size: 110px;
+    -webkit-text-stroke: 2px #3b82f6;
+    letter-spacing: -4px;
+    bottom: -10px;
+    left: -8px;
+  }
+
+  .top10-card {
+    width: min(55vw, 200px);
+    padding-left: 42px;
+  }
+
+  .top10-scroll {
+    padding: 16px 2px 24px 8px;
+    gap: 12px;
+  }
+
+  .top10-cta {
+    width: min(45vw, 180px);
+    min-height: 220px;
+    padding: 16px;
+  }
+
+  .top10-arrow {
+    width: 32px;
+    height: 32px;
   }
 }
